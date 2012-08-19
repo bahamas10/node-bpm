@@ -1,0 +1,30 @@
+{
+  "name": "bpm",
+  "description": "Calculate BPM by tapping",
+  "version": "0.0.0",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/node-bpm.git"
+  },
+  "scripts": {
+    "test": "for f in tests/*.js; do echo \"$f\"; node \"$f\" || exit 1; done; echo 'Passed!'; exit 0"
+  },
+  "dependencies": {
+    "keypress": "~0.1.0"
+  },
+  "bin": {
+    "bpm": "./bin/bpm.js"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "bpm",
+    "beat",
+    "tap"
+  ]
+}
