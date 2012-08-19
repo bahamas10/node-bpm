@@ -53,6 +53,11 @@ start tapping, it starts calculating the average BPM, and every tap it prints 3 
 * `ms` - The time in milliseconds from the previous to the current tap
 * `count` - How many times you have tapped
 
+It's also possible for `bpm` to read a stream on stdin.  The following is
+possible, but not recommended
+
+    $ yes | bpm
+
 ### Node Module
 
 ``` js
