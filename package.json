@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "contributors": [],
+  "main": "./bpm.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/bahamas10/node-bpm.git"
