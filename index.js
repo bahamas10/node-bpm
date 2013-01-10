@@ -2,8 +2,10 @@
  * Calculate BPM
  */
 
-module.exports = BPM;
-module.exports.BPM = BPM;
+if (typeof exports !== 'undefined') {
+  module.exports = BPM;
+  module.exports.BPM = BPM;
+}
 
 function BPM() {
   this.count = 0;
@@ -12,7 +14,7 @@ function BPM() {
 }
 
 BPM.prototype.tap = function() {
-  this.ts = new Date().getTime();
+  this.ts = Date.now();
   if (!this.first_ts) this.first_ts = this.ts;
 
   var ret = {};
