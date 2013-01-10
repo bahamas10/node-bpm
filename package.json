@@ -1,7 +1,7 @@
 {
   "name": "bpm",
   "description": "Calculate BPM by tapping",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "contributors": [],
   "main": "./bpm.js",
