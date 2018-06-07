@@ -1,10 +1,10 @@
-#!/usr/bin/env node
-/**
- * Calculate BPM on the command line
- *
- * Author: Dave Eddy <dave@daveeddy.com>
- * License: MIT
- */
+// #!/usr/bin/env node
+// /**
+//  * Calculate BPM on the command line
+//  *
+//  * Author: Dave Eddy <dave@daveeddy.com>
+//  * License: MIT
+//  */
 
 // Requires and such
 var BPM = require('../'),
